@@ -1,0 +1,238 @@
+/* 
+  This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
+  You'll probably need to override some of theese styles.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6f00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    /* padding: 0 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.logo {
+    height: 50px;
+}
+
+.login-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    /* padding: 20px; */
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+main h1{
+    margin: 20px 0;
+}
+
+.place-card, .review-card, .add-review {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.add-review form{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review h2{
+    margin: 20px 0;
+}
+
+.place-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details-button {
+    display: block;
+    text-align: center;
+    background-color: #ff6f00;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.place-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.place-details *{
+    margin: 15px;
+    text-align: center;
+}
+
+.review-card{
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+.review-card *{
+    margin: 15px 0;
+}
+
+.place-image-large {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.place-info {
+    text-align: left;
+}
+
+footer {
+    background-color: #ff6f00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ---------------------- */
+
+#filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.select-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+label{
+    width: 20%;
+    font-size: 15px;
+}
+
+textarea, select {
+    padding: 2px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.submit-button {
+    background-color: #ff6f00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.places-list{
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.places-list .card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* width: 30%; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card *{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    text-align: center;
+    margin: 10px;
+}
+
+.card p, span{
+    font-size: 15px;
+}
+
+.btn{
+    background-color: #ff6f00;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    min-width: min-content;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
